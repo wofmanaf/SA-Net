@@ -1,5 +1,6 @@
 # SA-Net: Shuffle Attention for Deep Convolutional Neural Networks <sub>([paper](https://arxiv.org/pdf/2102.00240.pdf))</sub>
 By Qing-Long Zhang and Yu-Bin Yang
+
 [State Key Laboratory for Novel Software Technology at Nanjing University]
 
 ## Approach
