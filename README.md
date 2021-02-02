@@ -5,7 +5,7 @@ By Qing-Long Zhang and Yu-Bin Yang
 
 ## Approach
 <div align="center">
-  <img src="https://https://github.com/wofmanaf/SA-Net/tree/main/figures/sa.png">
+  <img src="https://github.com/wofmanaf/SA-Net/blob/main/figures/sa.png">
 </div>
 <p align="center">
   Figure 1: The Diagram of a shuffle attention module.
