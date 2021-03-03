@@ -1,1 +1,1 @@
-from .discriminator import Discriminator
+from .sa_resnet import *
