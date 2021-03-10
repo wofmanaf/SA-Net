@@ -11,3 +11,11 @@ By Qing-Long Zhang and Yu-Bin Yang
   Figure 1: The Diagram of a shuffle attention module.
 </p>
 
+### Image Classification
+
+We provide baseline PVT models pretrained on ImageNet 2012.
+
+| name | acc@1 | #params (M) | url |
+| --- | --- | --- | --- |
+| sa_resnet50 | 77.75 | 25.56 | [BaiduDrive(474p)](https://pan.baidu.com/s/1-TEXeMjprUDyx013l3vZIQ)|
+| sa_resnet101 |  | 44.55 | |
