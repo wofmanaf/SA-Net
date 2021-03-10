@@ -76,7 +76,10 @@ def conv1x1(in_planes, out_planes, stride=1):
     """1x1 convolution"""
     return nn.Conv2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=False)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 class SABottleneck(nn.Module):
     expansion = 4
     __constants__ = ['downsample']
@@ -218,6 +221,7 @@ class ResNet(nn.Module):
         return x
 
 
+<<<<<<< HEAD
 def _sanet(arch, block, layers, pretrained, **kwargs):
     model = ResNet(block, layers, **kwargs)
     if pretrained:
@@ -233,6 +237,15 @@ def sa_resnet50(pretrained=False):
 
 def sa_resnet101(pretrained=False):
     model = _sanet('SANet-101', SABottleneck, [3, 4, 23, 3], pretrained=pretrained)
+=======
+def sa_resnet50(num_classes=1000, pretrained=False):
+    model = ResNet(SABottleneck, [3, 4, 6, 3], num_classes)
+    return model
+
+
+def sa_resnet101(num_classes=1000, pretrained=False):
+    model = ResNet(SABottleneck, [3, 4, 23, 3], num_classes)
+>>>>>>> origin/main
     return model
 
 
