@@ -13,7 +13,7 @@ By Qing-Long Zhang and Yu-Bin Yang
 
 ### Image Classification
 
-We provide baseline PVT models pretrained on ImageNet 2012.
+We provide baseline sa_resnet models pretrained on ImageNet 2012.
 
 | name | acc@1 | #params (M) | url |
 | --- | --- | --- | --- |
