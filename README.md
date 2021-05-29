@@ -1,7 +1,9 @@
-# SA-Net: Shuffle Attention for Deep Convolutional Neural Networks <sub>([paper](https://arxiv.org/pdf/2102.00240.pdf))</sub>
+# SA-Net
 By Qing-Long Zhang and Yu-Bin Yang
 
 [State Key Laboratory for Novel Software Technology at Nanjing University]
+
+This repo is the official implementation of ["SA-Net: Shuffle Attention for Deep Convolutional Neural Networks"](https://arxiv.org/pdf/2102.00240.pdf).
 
 ## Approach
 <div align="center">
@@ -29,4 +31,15 @@ python main.py -a sa_resnet50 -e --resume /path/to/sa_resnet50.pth.tar /path/to/
 This should give
 ```
  * Acc@1 77.882 Acc@5 93.892
+```
+
+## Citing SA-Net
+
+```
+@article{zhql2021sanet,
+  title={SA-Net: Shuffle Attention for Deep Convolutional Neural Networks},
+  author={Zhang, Qinglong and Yang, Yubin},
+  journal={arXiv preprint arXiv:2102.00240},
+  year={2021}
+}
 ```
